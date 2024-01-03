@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'SomerSans';
+    src: url('../SomarSans/Fonts/Web/Condensed/SomarSans-RegularCondensed.woff2') format('woff2'),
+         url('../SomarSans/Fonts/Web/Condensed/SomarSans-RegularCondensed.woff') format('woff');
+    /* Add more file formats if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.nav-text{
+    font-family: 'SomerSans';
+    font-weight: 800;
+    line-height: 49.89px;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+@keyframes fadeAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideAnimation {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+  }
+
+@keyframes fadeAnimation2 {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slideAnimation2 {
+    from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+      }
+    }
+
+.shadow-div{
+animation: fadeAnimation 0.5s;
+}
+
+.side-bar{
+    animation: slideAnimation 0.5s;
+}
+
+.hide-shadow{
+    animation: fadeAnimation2 0.5s;
+    }
+    
+.hide-bar{
+    animation: slideAnimation2 0.5s;
+    width: 0;
+}
+
+.bar {
+    width: 100%;
+}

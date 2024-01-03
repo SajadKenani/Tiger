@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'SomerSans';
+    src: url('../SomarSans/Fonts/Web/Condensed/SomarSans-RegularCondensed.woff2') format('woff2'),
+         url('../SomarSans/Fonts/Web/Condensed/SomarSans-RegularCondensed.woff') format('woff');
+    /* Add more file formats if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'LightSomerSans';
+    src: url('../SomarSans/Fonts/Web/Standard/SomarSans-Regular.woff2') format('woff2'),
+         url('../SomarSans/Fonts/Web/Standard/SomarSans-Regular.woff') format('woff');
+    /* Add more file formats if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+h1{
+    font-family: "SomerSans";
+    font-weight: 800;
+    font-size: 50px;
+    font-style: italic;
+
+}
+
+h2{
+    font-family: "LightSomerSans";
+    font-weight: 800;
+    font-size: 34px;
+
+}
+
+h3{
+    font-family: "SomerSans";
+    font-weight: 800;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.left-blue-color{
+    height: 836px;
+    width: 30%;
+    background: linear-gradient(270deg, rgba(44, 178, 240, 0) 0%, #31a3faa9 400%);
+
+    top: 0;
+
+    z-index: 10;
+
+    margin-top: -250px;
+
+}
+
+.right-blue-color{
+    height: 836px;
+    width: 30%;
+    background: linear-gradient(90deg, rgba(44, 178, 240, 0) 0%, #32a6ff97 400%);
+    
+
+    top: 0;
+
+    z-index: 10;
+
+    margin-top: -250px;
+
+    right: 0;
+
+}
+
+.indicator {
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    border: 2px #ffffff solid;
+    margin: 5px;
+
+    margin-top: 20px;
+
+
+
+    border-radius: 1000px;
+  }
+  
+  .indicator.active {
+    background: #ffffff;
+  }
+
+
+  .fade-up {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+
+  /* Add styles for the visible state of the element */
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.prev-circleArrow{
+
+    border-radius: 1000px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+
+    width: 50px;
+    height: 50px;
+
+}
+
+.next-circleArrow{
+    border-radius: 1000px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+
+    width: 50px;
+height: 50px;
+}
