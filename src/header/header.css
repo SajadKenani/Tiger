@@ -16,6 +16,41 @@
 
 }
 
+.fadingLight{
+  width: 0px;
+  height: 0px;
+
+  margin: 10px;
+
+  margin-bottom: 120px;
+
+  margin-left: 25px;
+  margin-right: 100px;
+
+  background-color: rgba(255, 255, 255, 0);
+  
+  
+ 
+  border-radius: 10000px;
+
+
+
+  box-shadow: 40px 20px 50px 20px rgb(216, 249, 255);
+ 
+  
+
+
+}
+
+.appearenceAnimation{
+  animation: slideAnimation 1.5s;
+}
+.fadingAnimation{
+  animation: fadeAnimation2 1.5s;
+}
+
+
+
 @keyframes fadeAnimation {
     from {
       opacity: 0;
