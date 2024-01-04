@@ -67,6 +67,7 @@ h3{
 
 }
 
+
 .indicator {
     cursor: pointer;
     padding: 5px;
@@ -74,7 +75,9 @@ h3{
     border: 2px #ffffff solid;
     margin: 5px;
 
-    margin-top: 20px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    position: relative;
 
 
 
@@ -115,5 +118,83 @@ h3{
     border: 2px solid white;
 
     width: 50px;
-height: 50px;
+   height: 50px;
+}
+
+.prev-circleArrowTwo{
+
+  background-color: rgba(0, 0, 0, 0);
+
+
+  width: 50px;
+  height: 50px;
+
+}
+
+.next-circleArrowTwo{
+
+  background-color: rgba(0, 0, 0, 0);
+
+
+  width: 50px;
+ height: 50px;
+}
+
+
+
+.slick-active  {
+  background-color: #ffffff; /* Change the background color of the active dot */
+  position: fixed;
+
+
+}
+
+.slick-list {
+  margin-bottom: -200px;
+  position: absolute;
+}
+
+/* Style for inactive dots */
+.slick-dots li {
+  margin: 0 5px; /* Adjust the spacing between dots */
+
+  
+  border: 2px solid white;
+  border-radius: 1000px;
+
+
+}
+
+
+/* Style for active dot */
+.your-slider .slick-dots button {
+  margin: 100px 0px; /* Adjust the spacing between dots */
+}
+
+
+.your-slider button.slick-dots li button {
+  width: 10px; /* Adjust the width of each dot */
+  height: 10px; /* Adjust the height of each dot */
+  border-radius: 50%; /* Make dots circular */
+  background-color: #B8B8B8; /* Set the background color of inactive dots */
+  border: none; /* Remove border around dots */
+
+  margin: 213px 5px; /* Adjust the spacing between dots */
+}
+.your-slider button.slick-dots {
+  margin: 213px 5px; /* Adjust the spacing between dots */
+  position: relative;
+}
+
+.slick-dots li button {
+  width: 10px; /* Adjust the width of each dot */
+  height: 10px; /* Adjust the height of each dot */
+  border-radius: 50%; /* Make dots circular */
+  background-color: #ffffff; /* Set the background color of inactive dots */
+
+  
+  z-index: 432423243;
+
+  
+
 }
