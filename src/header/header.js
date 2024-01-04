@@ -46,7 +46,7 @@ export const Header = () => {
 
     return (
         <div>
-            <section className=" hidden lg:flex justify-center p-10 bg-black " >
+            <section className=" hidden lg:flex block justify-center p-10 ml-10 " style={{zIndex: "24343213", position: "relative"}}>
 
                 <div className="flex justify-between gap-14">
 
