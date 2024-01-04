@@ -28,11 +28,12 @@ function App() {
     <div className="App">
 
       <Header />
-      <div className='hidden lg:block' style={{marginBottom: "100px", marginTop: "-145px", marginRight: "1200px", zIndex: "24343", position: "relative"}}>
+      <div className='hidden lg:block myButton' >
        <button 
        onClick={myFunction}
        style={{ zIndex: "2434343"}}
-      className='bg-white p-2'
+      className='bg-white p-2 innerButton'
+      
       > 
       
       {Number(localStorage.getItem("myValue")) === 0 ? "AR" : "EN" } 
