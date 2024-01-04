@@ -11,6 +11,8 @@ export const Header = () => {
 
     const [activatedmenu, useactivatedmenu] = useState(false);
 
+    const [setfading, usesetfading] = useState(true);
+
     const barRef = useRef();
     const shadowRef = useRef();
 
@@ -40,6 +42,8 @@ export const Header = () => {
         setTimeout(() => useactivatedmenu(!activatedmenu), 490);
       }
 
+      setTimeout(() => usesetfading(!setfading), 1500);
+
     return (
         <div>
             <section className=" hidden lg:flex justify-center p-10 bg-black " >
@@ -50,7 +54,11 @@ export const Header = () => {
                 <p className="text-white mt-4 nav-text"> {Number(localStorage.getItem("myValue")) === 0 ? "OurStory" : "قصتنا" } </p>
                 <p className="text-white mt-4 nav-text"> {Number(localStorage.getItem("myValue")) === 0 ? "Products" : "منتجاتنا" } </p>
 
-                <img className="w-44 -mt-6" src={mainHeaderImage} />
+
+                <div className="flex justify-center">
+                <img className="w-44 -mt-6 absolute" src={mainHeaderImage} />
+                <div className={setfading ? "relative fadingLight -mt-6 fadingAnimation" : "relative fadingLight -mt-6 appearenceAnimation"} ></div>
+                 </div>
 
                 <p className="text-white mt-4 nav-text"> {Number(localStorage.getItem("myValue")) === 0 ? "White Tiger" : "النمر الابيض" } </p>
                 <p className="text-white mt-4 nav-text"> {Number(localStorage.getItem("myValue")) === 0 ? "Gallery" : "المحتويات" } </p>
@@ -64,7 +72,7 @@ export const Header = () => {
             <section className="flex  lg:hidden justify-between p-10 bg-black">
                 
 
-          <img className="w-14 h-14 -mt-3 ml-0 -m-6 relative" style={{zIndex: "63654"}} onClick={() => activateMenu()} src={menuImage} />
+          <img className="w-14 h-14 mt-3 ml-0 -m-6 relative" style={{zIndex: "63654"}} onClick={() => activateMenu()} src={menuImage} />
 
           {activatedmenu && 
           <div style={{zIndex: "243432"}}>
@@ -85,8 +93,10 @@ export const Header = () => {
            
           </div>
         }
-          <img className="w-28 -m-6" src={mainHeaderImage} /> 
-
+          <div className="flex justify-center">
+          <img className="w-44 -mt-6 absolute" src={mainHeaderImage} />
+          <div className={setfading ? "relative fadingLight -mt-6 fadingAnimation" : "relative fadingLight -mt-6 appearenceAnimation"} ></div>
+          </div>
 
       
 
