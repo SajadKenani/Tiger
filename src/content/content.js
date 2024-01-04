@@ -17,8 +17,10 @@ import { useRef } from "react";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import background2 from "../images/backGround2.png";
+import background1 from "../images/backGround0.png";
+import background0 from "../images/backGround1.png";
 
-import mainSliderImage0 from "../images/mainSlider-0.png";
 import ourStoryImage from "../images/ourStoryMainImage.webp";
 
 import productsMainImage from "../images/productsMainImage.png"
@@ -56,40 +58,12 @@ export const Content = () => {
         color: "#989898",
     }
 
-    const indicators = () => (<div className="indicator"></div>);
+
 
     const sliderRef = useRef(null);
+    const mySliderRef = useRef(null)
 
-    const divStyle = {
-
-        backgroundSize: 'cover',
-        width: "40%", 
-        height: "500px",
-
-
-
-        
-      }
-
-
-      const buttonStyle = {
-        width: "30px",
-        background: 'none',
-        border: '0px',
-
-        margin: "40px"
-
-        
-
-
-    };
     
-    const properties = {
-        prevArrow: <button style={{ ...buttonStyle }}><img src={leftArrow} /></button>,
-        nextArrow: <button style={{ ...buttonStyle }}><img src={rightArrow} /></button>,
-
-
-    }
 
     const settings = {
         infinite: true,
@@ -159,21 +133,16 @@ export const Content = () => {
 
       };
 
+      const sliderSettings = {
+        dots: true,
+        infinite: true,
+        speed: 200,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
 
-    const slideImages = [
-        {
-          url: mainSliderImage0,
+      };
 
-        },
-        {
-          url:mainSliderImage0,
-
-        },
-        {
-          url:mainSliderImage0,
-   
-        },
-      ];
 
       const [ref, inView] = useInView({
         triggerOnce: true, 
@@ -190,32 +159,81 @@ export const Content = () => {
         threshold: 0.2, 
       });
 
+      const MSlider = ({ className, style, children, ...settings }) => {
+        // Manually add the dots here
+        const dots = Array.from({ length: React.Children.count(children) }).map((_, index) => (
+          <li key={index}>
+            <button> {/* You can customize the button as needed */}
+              {index + 1}
+            </button>
+          </li>
+        ));
+      }
+
     return (
         <div className="bg-black " style={{zIndex: "132"}}>
 
             {/* Main Section */}
 
-            <div className="flex justify-between ">
+            <div className="flex justify-between " style={{height: "1000px", marginTop: "-220px"}}>
 
-            <div className="left-blue-color"></div>
+  
+            <button onClick={() => mySliderRef.current.slickPrev()} className="prev-circleArrowTwo bg-white" style={{marginRight: "-100px", marginLeft: "0px", marginTop: "400px", zIndex: "432432"}}>
+              <svg
+                 xmlns="http://www.w3.org/2000/svg"
+                 width="100"
+                 height="100"
+                 viewBox="0 0 24 24"
+                 fill="none"
+                 stroke="white" 
+                 strokeWidth="0.3"
+                 strokeLinecap="round"
+                 strokeLinejoin="round"
 
-            <div className="flex justify-center">
-             <div className="slide-container absolute  fade-up animate__animated animate__fadeInUp" style={{zIndex: "1000", width: "100%"}}>
+                 className="ml-2"
+                >
+                <polyline points="15 18 9 12 15 6"></polyline>
+               </svg>
+              </button>
+         
+             <div className="slide-container " style={{zIndex: "107900", width: "100%"}}>
 
-             <Slide {...properties} indicators={indicators}>
-             {slideImages.map((slideImage, index)=> (
-                <div key={index} className="flex justify-center">
-                  <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}></div>
-                </div>
+              <MySlider ref={mySliderRef}  {...sliderSettings} className="your-slider" style={{zIndex: '2342', padding: "0", marginTop: "-75px"}}>
 
-              ))} 
-            </Slide>
+              <div className="">
+              <img src={background0} className="" style={{height:"1000px", width: "100%", margin: "0px", marginTop: "100px", objectFit: "cover"}}/>         
+              </div> 
+              
+              <div className="">
+              <img src={background1} className="" style={{height:"1000px", width: "100%", margin: "0px", marginTop: "100px", objectFit: "cover"}}/> 
+              </div> 
+              
+              <div className="">
+              <img src={background2} className="" style={{height:"1000px", width: "100%", margin: "0px", marginTop: "100px", objectFit: "cover"}}/>   
+              </div> 
+              
+              </MySlider>
     
              </div>
-            </div>
-   
+  
+             <button onClick={() => mySliderRef.current.slickNext()} className="next-circleArrowTwo bg-white" style={{marginLeft: "-170px", marginRight: "70px", marginTop: "400px", zIndex: "432432"}}>
+              <svg
+                 xmlns="http://www.w3.org/2000/svg"
+                 width="100"
+                 height="100"
+                 viewBox="0 0 24 24"
+                 fill="none"
+                 stroke="white" 
+                 strokeWidth="0.3"
+                 strokeLinecap="round"
+                 strokeLinejoin="round"
 
-            <div className="right-blue-color"></div>
+                 className="ml-2"
+              >
+              <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+              </button>
+
 
             </div>
 
