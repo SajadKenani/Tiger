@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/tiger/static/css/main.320a70c8.css",
-    "main.js": "/tiger/static/js/main.44199bf1.js",
-    "static/media/mainSlider-0.png": "/tiger/static/media/mainSlider-0.f6d9e2ee33d231de612c.png",
+    "main.css": "/tiger/static/css/main.5a498a3a.css",
+    "main.js": "/tiger/static/js/main.a9c3a093.js",
+    "static/media/backGround2.png": "/tiger/static/media/backGround2.66e6f832281d8571fe2f.png",
+    "static/media/backGround1.png": "/tiger/static/media/backGround1.10f1962f398a04dea71c.png",
     "static/media/productsMainImage.png": "/tiger/static/media/productsMainImage.41b30e4191e91de5fa2f.png",
+    "static/media/backGround0.png": "/tiger/static/media/backGround0.f1fc584531a417542c5a.png",
     "static/media/whiteBottle.png": "/tiger/static/media/whiteBottle.e75e80df1aa486c5d3d1.png",
     "static/media/ourStoryMainImage.webp": "/tiger/static/media/ourStoryMainImage.c84de49020f686d5444e.webp",
     "static/media/main-header.webp": "/tiger/static/media/main-header.884465b30df466837673.webp",
@@ -17,11 +19,11 @@
     "static/media/slick.woff": "/tiger/static/media/slick.295183786cd8a1389865.woff",
     "static/media/menu.webp": "/tiger/static/media/menu.8c10963724a63767b5b5.webp",
     "index.html": "/tiger/index.html",
-    "main.320a70c8.css.map": "/tiger/static/css/main.320a70c8.css.map",
-    "main.44199bf1.js.map": "/tiger/static/js/main.44199bf1.js.map"
+    "main.5a498a3a.css.map": "/tiger/static/css/main.5a498a3a.css.map",
+    "main.a9c3a093.js.map": "/tiger/static/js/main.a9c3a093.js.map"
   },
   "entrypoints": [
-    "static/css/main.320a70c8.css",
-    "static/js/main.44199bf1.js"
+    "static/css/main.5a498a3a.css",
+    "static/js/main.a9c3a093.js"
   ]
 }
