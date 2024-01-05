@@ -17,9 +17,9 @@ import { useRef } from "react";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import background2 from "../images/backGround2.png";
-import background1 from "../images/backGround0.png";
-import background0 from "../images/backGround1.png";
+import background2 from "../images/backGround2.webp";
+import background1 from "../images/backGround0.webp";
+import background0 from "../images/backGround1.webp";
 
 import ourStoryImage from "../images/ourStoryMainImage.webp";
 
