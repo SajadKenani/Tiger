@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/tiger/static/css/main.5a498a3a.css",
-    "main.js": "/tiger/static/js/main.a9c3a093.js",
-    "static/media/backGround2.png": "/tiger/static/media/backGround2.66e6f832281d8571fe2f.png",
-    "static/media/backGround1.png": "/tiger/static/media/backGround1.10f1962f398a04dea71c.png",
+    "main.js": "/tiger/static/js/main.1cb8c9b0.js",
     "static/media/productsMainImage.png": "/tiger/static/media/productsMainImage.41b30e4191e91de5fa2f.png",
-    "static/media/backGround0.png": "/tiger/static/media/backGround0.f1fc584531a417542c5a.png",
+    "static/media/backGround2.webp": "/tiger/static/media/backGround2.26d7165a324aa6df8712.webp",
+    "static/media/backGround1.webp": "/tiger/static/media/backGround1.ed5345f3819133ae09dc.webp",
+    "static/media/backGround0.webp": "/tiger/static/media/backGround0.42750dfd0ea24d1918ab.webp",
     "static/media/whiteBottle.png": "/tiger/static/media/whiteBottle.e75e80df1aa486c5d3d1.png",
     "static/media/ourStoryMainImage.webp": "/tiger/static/media/ourStoryMainImage.c84de49020f686d5444e.webp",
     "static/media/main-header.webp": "/tiger/static/media/main-header.884465b30df466837673.webp",
@@ -20,10 +20,10 @@
     "static/media/menu.webp": "/tiger/static/media/menu.8c10963724a63767b5b5.webp",
     "index.html": "/tiger/index.html",
     "main.5a498a3a.css.map": "/tiger/static/css/main.5a498a3a.css.map",
-    "main.a9c3a093.js.map": "/tiger/static/js/main.a9c3a093.js.map"
+    "main.1cb8c9b0.js.map": "/tiger/static/js/main.1cb8c9b0.js.map"
   },
   "entrypoints": [
     "static/css/main.5a498a3a.css",
-    "static/js/main.a9c3a093.js"
+    "static/js/main.1cb8c9b0.js"
   ]
 }
