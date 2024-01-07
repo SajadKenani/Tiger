@@ -537,7 +537,7 @@ export const Content = () => {
                    <div>
                     <h2 className=  {Number(localStorage.getItem("myValue")) === 0 ? "text-white text-center lg:text-left mb-3" : "text-white text-center lg:text-right mb-3" }> 
                     {Number(localStorage.getItem("myValue")) === 0 ?
-                    "White Tiger Classic" : " وايت تايجر موهيتو ليمون نعناع " } 
+                    "White Tiger Classic" : " وايت تايجر كلاسيك " } 
                     </h2>
 
                     <p className={Number(localStorage.getItem("myValue")) === 0 ? "text-white text-center lg:text-left" : "text-white text-center lg:text-right" } 
@@ -553,7 +553,7 @@ export const Content = () => {
                    <div>
                     <h2 className=  {Number(localStorage.getItem("myValue")) === 0 ? "text-white text-center lg:text-left mb-3" : "text-white text-center lg:text-right mb-3" }> 
                     {Number(localStorage.getItem("myValue")) === 0 ?
-                    "White Tiger Marshmallow" : " وايت تايجر موهيتو ليمون نعناع " } 
+                    "White Tiger Marshmallow" : " وايت تايجر مارشميلو " } 
                     </h2>
 
                     <p className={Number(localStorage.getItem("myValue")) === 0 ? "text-white text-center lg:text-left" : "text-white text-center lg:text-right" } 
@@ -569,7 +569,7 @@ export const Content = () => {
                    <div>
                     <h2 className=  {Number(localStorage.getItem("myValue")) === 0 ? "text-white text-center lg:text-left mb-3" : "text-white text-center lg:text-right mb-3" }> 
                     {Number(localStorage.getItem("myValue")) === 0 ?
-                    "White Tiger Pink Cherry Mix" : " وايت تايجر موهيتو ليمون نعناع " } 
+                    "White Tiger Pink Cherry Mix" : " وايت تايجر مكس الكرز الوردي " } 
                     </h2>
 
                     <p className={Number(localStorage.getItem("myValue")) === 0 ? "text-white text-center lg:text-left" : "text-white text-center lg:text-right" } 
