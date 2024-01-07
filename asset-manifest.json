@@ -1,29 +1,43 @@
 {
   "files": {
-    "main.css": "/tiger/static/css/main.5a498a3a.css",
-    "main.js": "/tiger/static/js/main.1cb8c9b0.js",
-    "static/media/productsMainImage.png": "/tiger/static/media/productsMainImage.41b30e4191e91de5fa2f.png",
+    "main.css": "/tiger/static/css/main.d57c1922.css",
+    "main.js": "/tiger/static/js/main.dcb320ed.js",
+    "static/media/productsMainImage.png": "/tiger/static/media/productsMainImage.c639803b033d12aeb7a3.png",
+    "static/media/galleryImage5.png": "/tiger/static/media/galleryImage5.c2707f9b14a769e86387.png",
+    "static/media/galleryImage1.png": "/tiger/static/media/galleryImage1.0b78047f827bf6071aae.png",
+    "static/media/galleryImage4.png": "/tiger/static/media/galleryImage4.98d05e1f62e76073ba37.png",
+    "static/media/ourStoryMainImage.png": "/tiger/static/media/ourStoryMainImage.bf40689835cae5bd8574.png",
+    "static/media/galleryImage3.png": "/tiger/static/media/galleryImage3.ff527c4094ca18f5112d.png",
+    "static/media/galleryImage2.png": "/tiger/static/media/galleryImage2.04b1b71114a60da9537a.png",
+    "static/media/reginstrationImage.png": "/tiger/static/media/reginstrationImage.e2b89d76a29e0a54d199.png",
     "static/media/backGround2.webp": "/tiger/static/media/backGround2.26d7165a324aa6df8712.webp",
     "static/media/backGround1.webp": "/tiger/static/media/backGround1.ed5345f3819133ae09dc.webp",
     "static/media/backGround0.webp": "/tiger/static/media/backGround0.42750dfd0ea24d1918ab.webp",
-    "static/media/whiteBottle.png": "/tiger/static/media/whiteBottle.e75e80df1aa486c5d3d1.png",
-    "static/media/ourStoryMainImage.webp": "/tiger/static/media/ourStoryMainImage.c84de49020f686d5444e.webp",
+    "static/media/WhiteTigerMarshmallow.png": "/tiger/static/media/WhiteTigerMarshmallow.9ea0a18f04b1332e3273.png",
+    "static/media/WhiteTigerPinkCherryMix.png": "/tiger/static/media/WhiteTigerPinkCherryMix.b85ec34dfaf4251357b5.png",
+    "static/media/WhiteTigerClassic.png": "/tiger/static/media/WhiteTigerClassic.0eca1531b590275c3f59.png",
+    "static/media/WhiteTigerMojitoLemonmint.png": "/tiger/static/media/WhiteTigerMojitoLemonmint.b6cf1600e0c97fa73c58.png",
     "static/media/main-header.webp": "/tiger/static/media/main-header.884465b30df466837673.webp",
     "static/media/SomarSans-Regular.woff": "/tiger/static/media/SomarSans-Regular.819af0cae2dc3eb61b30.woff",
     "static/media/SomarSans-Regular.woff2": "/tiger/static/media/SomarSans-Regular.170e26be1c1632b12e05.woff2",
+    "static/media/SomarSans-Light.woff2": "/tiger/static/media/SomarSans-Light.1324a6b752abc54cd3df.woff2",
+    "static/media/SomarSans-SemiBoldExpanded.woff": "/tiger/static/media/SomarSans-SemiBoldExpanded.62b2610be3512c857fa2.woff",
+    "static/media/footerImage.png": "/tiger/static/media/footerImage.954375f31ca0a5d02cd1.png",
     "static/media/SomarSans-RegularCondensed.woff": "/tiger/static/media/SomarSans-RegularCondensed.b238a5b5c48a4769e407.woff",
+    "static/media/SomarSans-SemiBoldExpanded.woff2": "/tiger/static/media/SomarSans-SemiBoldExpanded.e4af4bdee40570b4d61b.woff2",
     "static/media/SomarSans-RegularCondensed.woff2": "/tiger/static/media/SomarSans-RegularCondensed.347a73b815084f4af98f.woff2",
+    "static/media/unCoCircle.png": "/tiger/static/media/unCoCircle.039f11e4bf916cf31b04.png",
     "static/media/slick.svg": "/tiger/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/tiger/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/tiger/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tiger/static/media/slick.295183786cd8a1389865.woff",
     "static/media/menu.webp": "/tiger/static/media/menu.8c10963724a63767b5b5.webp",
     "index.html": "/tiger/index.html",
-    "main.5a498a3a.css.map": "/tiger/static/css/main.5a498a3a.css.map",
-    "main.1cb8c9b0.js.map": "/tiger/static/js/main.1cb8c9b0.js.map"
+    "main.d57c1922.css.map": "/tiger/static/css/main.d57c1922.css.map",
+    "main.dcb320ed.js.map": "/tiger/static/js/main.dcb320ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a498a3a.css",
-    "static/js/main.1cb8c9b0.js"
+    "static/css/main.d57c1922.css",
+    "static/js/main.dcb320ed.js"
   ]
 }
