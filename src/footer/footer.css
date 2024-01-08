@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'veryRegularSomerSans';
+    src: url('../SomarSans/Fonts/Web/Standard/SomarSans-Light.woff2') format('woff2'),
+         url('../SomarSans/Fonts/Web/Standard/SomarSans-Light.woff2') format('woff');
+    /* Add more file formats if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.footerPara{
+
+    width: 430px; 
+    color: #989898;
+}
+
+.footerParaArabic{
+
+    color: #989898;
+    direction: rtl;
+
+    text-align: start;
+}
+
+p{
+    font-family: "veryRegularSomerSans";
+}
+
+.englishtext{
+    text-align: start;
+}
+.arabictext{
+    text-align: end;
+}
+
+@media screen and (max-width: 510px) {
+    .footerPara{
+        width: 90%; 
+        color: #989898;
+    }
+    
+}
