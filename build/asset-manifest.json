@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.426eb974.css",
+    "main.js": "/static/js/main.108cbf5d.js",
+    "static/media/productsMainImage.png": "/static/media/productsMainImage.c639803b033d12aeb7a3.png",
+    "static/media/galleryImage5.png": "/static/media/galleryImage5.c2707f9b14a769e86387.png",
+    "static/media/galleryImage1.png": "/static/media/galleryImage1.0b78047f827bf6071aae.png",
+    "static/media/galleryImage4.png": "/static/media/galleryImage4.98d05e1f62e76073ba37.png",
+    "static/media/ourStoryMainImage.png": "/static/media/ourStoryMainImage.bf40689835cae5bd8574.png",
+    "static/media/galleryImage3.png": "/static/media/galleryImage3.ff527c4094ca18f5112d.png",
+    "static/media/galleryImage2.png": "/static/media/galleryImage2.04b1b71114a60da9537a.png",
+    "static/media/reginstrationImage.png": "/static/media/reginstrationImage.e2b89d76a29e0a54d199.png",
+    "static/media/backGround2.webp": "/static/media/backGround2.26d7165a324aa6df8712.webp",
+    "static/media/backGround1.webp": "/static/media/backGround1.ed5345f3819133ae09dc.webp",
+    "static/media/backGround0.webp": "/static/media/backGround0.42750dfd0ea24d1918ab.webp",
+    "static/media/WhiteTigerMarshmallow.png": "/static/media/WhiteTigerMarshmallow.9ea0a18f04b1332e3273.png",
+    "static/media/WhiteTigerPinkCherryMix.png": "/static/media/WhiteTigerPinkCherryMix.b85ec34dfaf4251357b5.png",
+    "static/media/WhiteTigerClassic.png": "/static/media/WhiteTigerClassic.0eca1531b590275c3f59.png",
+    "static/media/WhiteTigerMojitoLemonmint.png": "/static/media/WhiteTigerMojitoLemonmint.b6cf1600e0c97fa73c58.png",
+    "static/media/main-header.webp": "/static/media/main-header.884465b30df466837673.webp",
+    "static/media/SomarSans-Regular.woff": "/static/media/SomarSans-Regular.819af0cae2dc3eb61b30.woff",
+    "static/media/SomarSans-Regular.woff2": "/static/media/SomarSans-Regular.170e26be1c1632b12e05.woff2",
+    "static/media/SomarSans-Light.woff2": "/static/media/SomarSans-Light.1324a6b752abc54cd3df.woff2",
+    "static/media/SomarSans-SemiBoldExpanded.woff": "/static/media/SomarSans-SemiBoldExpanded.62b2610be3512c857fa2.woff",
+    "static/media/footerImage.png": "/static/media/footerImage.954375f31ca0a5d02cd1.png",
+    "static/media/SomarSans-RegularCondensed.woff": "/static/media/SomarSans-RegularCondensed.b238a5b5c48a4769e407.woff",
+    "static/media/SomarSans-SemiBoldExpanded.woff2": "/static/media/SomarSans-SemiBoldExpanded.e4af4bdee40570b4d61b.woff2",
+    "static/media/SomarSans-RegularCondensed.woff2": "/static/media/SomarSans-RegularCondensed.347a73b815084f4af98f.woff2",
+    "static/media/unCoCircle.png": "/static/media/unCoCircle.039f11e4bf916cf31b04.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/menu.webp": "/static/media/menu.8c10963724a63767b5b5.webp",
+    "index.html": "/index.html",
+    "main.426eb974.css.map": "/static/css/main.426eb974.css.map",
+    "main.108cbf5d.js.map": "/static/js/main.108cbf5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.426eb974.css",
+    "static/js/main.108cbf5d.js"
+  ]
+}
